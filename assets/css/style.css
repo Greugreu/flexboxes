@@ -1,0 +1,26 @@
+@import url("reset.css");
+
+#flexMachin{
+  display: flex;
+  justify-content: center;
+  align-items: baseline;
+  min-height: 400px;
+  background: #ccc;
+}
+#flexMachin div {
+  padding: 10px 50px;
+  margin: 0 10px;
+  height: 40px;
+}
+#flexMachin div:nth-child(1){
+  background-color: red;
+}
+#flexMachin div:nth-child(2){
+  background-color: blue;
+}
+#flexMachin div:nth-child(3){
+  background-color: green;
+}
+#flexMachin div:nth-child(4){
+  background-color: pink;
+}
